@@ -1,55 +1,93 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BS Assistant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BS Assistant</title>
 
-    <link rel="stylesheet" href="style.css">
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
+
 <body>
 
-<div class="container">
+<div class="background"></div>
 
-    <div class="profile">
+<header>
 
-        <div class="avatar" id="avatar">👤</div>
+<div class="profile">
+<img src="images/avatar.png" class="avatar">
 
-        <div>
-            <h2 id="username">Игрок</h2>
-            <p>BS Assistant</p>
-        </div>
+<div>
+<h2>ROUZ</h2>
+<p>BS Assistant</p>
+</div>
+</div>
 
-    </div>
+<div class="resources">
 
-    <div class="grid">
+<div>🏆 <span id="trophies">0</span></div>
 
-        <button class="card red">🥊<br>Бойцы</button>
+<div>⚡ <span>0</span></div>
 
-        <button class="card">🎯<br>События</button>
+<div>🪙 <span>0</span></div>
 
-        <button class="card green big">▶<br>Играть</button>
-
-        <button class="card">🎫<br>Brawl Pass</button>
-
-        <button class="card">👥<br>Команды</button>
-
-        <button class="card">🛡<br>Клубы</button>
-
-        <button class="card green">💚<br>Спонсировать</button>
-
-        <button class="card">🛒<br>Магазин</button>
-
-        <button class="card">⚡<br>Баффы</button>
-
-        <button class="card">🤝<br>Друзья</button>
-
-        <button class="card">👤<br>Профиль</button>
-
-    </div>
+<div>💎 <span>0</span></div>
 
 </div>
+
+</header>
+
+<div class="center">
+
+<div class="left">
+
+<button>🛒<br>МАГАЗИН</button>
+
+<button>🥊<br>БОЙЦЫ</button>
+
+<button>📋<br>КВЕСТЫ</button>
+
+</div>
+
+<div class="hero">
+
+<div class="rank">
+РАНГ 1
+</div>
+
+<img src="images/hero.png">
+
+</div>
+
+<div class="right">
+
+<button>👥<br>ДРУЗЬЯ</button>
+
+<button>🛡<br>КЛУБ</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="mode">
+
+<b>ОДИНОЧНОЕ СТОЛКНОВЕНИЕ</b>
+
+<br>
+
+Тысяча озёр
+
+</div>
+
+<button id="playButton">
+ИГРАТЬ
+</button>
+
+</footer>
 
 <script src="script.js"></script>
 
