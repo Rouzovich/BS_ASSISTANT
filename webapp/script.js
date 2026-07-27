@@ -34,7 +34,7 @@ document.querySelectorAll(".card").forEach(card => {
                 break;
 
             case "▶ Играть":
-                tg.showAlert("Запуск игры...");
+                window.location.href = "game.html";
                 break;
 
             case "🎫 Brawl Pass":
